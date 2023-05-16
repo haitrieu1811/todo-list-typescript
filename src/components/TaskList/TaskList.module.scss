@@ -1,0 +1,63 @@
+.wrapper {
+    margin-top: 24px;
+}
+
+.heading {
+    margin-bottom: 12px;
+}
+
+.list {
+    position: relative;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &.done {
+        .label {
+            text-decoration: line-through;
+            color: #95a5a6;
+        }
+    }
+}
+
+.text {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox {
+    --size: 18px;
+    width: var(--size);
+    height: var(--size);
+}
+
+.label {
+    font-size: 1.7rem;
+    color: #2d3436;
+    user-select: none;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.actions {
+    display: flex;
+}
+
+.action {
+    font-size: 1.4rem;
+    padding: 4px 6px;
+    border: 2px solid #dbdbdb;
+    cursor: pointer;
+
+    + .action {
+        margin-left: 2px;
+    }
+}
+
+.empty {
+    font-size: 1.4rem;
+    color: #95a5a6;
+}

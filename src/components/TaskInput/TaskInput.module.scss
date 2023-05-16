@@ -1,0 +1,28 @@
+.wrapper {
+    position: relative;
+}
+
+.heading {
+    margin-bottom: 12px;
+}
+
+.form {
+    display: flex;
+}
+
+.input {
+    flex: 1;
+    font-size: 1.5rem;
+    border: 2px solid #dbdbdb;
+    padding: 6px 12px;
+    outline: none;
+}
+
+.btnAdd {
+    outline: none;
+    border: 2px solid #dbdbdb;
+    font-size: 1.5rem;
+    width: 80px;
+    margin-left: 2px;
+    cursor: pointer;
+}
